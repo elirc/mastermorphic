@@ -2,6 +2,8 @@
 
 Running log of what was inspected while authoring this curriculum. Anything not listed here as **verified** should be treated as **inferred**.
 
+> **Status note (2026-10-06, frozen record).** The log below describes the 2026-07-09 authoring pass and is kept as written. A static re-check on 2026-10-06 resolved every relative link in `fabledocs/` (≈1,350 links) and confirmed the line anchors still fall inside their target files; sampled anchors (chat route, streaming, citation, RLS, title generator) still point at the code they describe, and the stated sizes (`app/api/chat/route.ts` 229 lines, `get-current-user.ts` 44, `message-mapping.ts` 775, 11 Drizzle migrations) still hold. The "no commits yet" row is superseded: the repo now has a single snapshot commit, so there is still no upstream history to mine. No commands were run in the re-check.
+
 **Authoring date:** 2026-07-09
 **Environment:** Windows 11, Node v22.16.0 available. **Bun is NOT installed on the authoring machine**, so no `bun` commands were executed. All install/dev/test commands are marked **inferred** from [package.json](../../package.json#L6-L18), [AGENTS.md](../../AGENTS.md), and [.github/workflows/ci.yml](../../.github/workflows/ci.yml).
 

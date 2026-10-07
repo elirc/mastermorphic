@@ -75,8 +75,8 @@ Never hand-edit files in [drizzle/](../../drizzle/) — they're generated + appe
 | `MORPHIC_CLOUD_DEPLOYMENT=true` | enables rate limits, pinned models |
 | `DATABASE_SSL_DISABLED=true` | local PG without SSL |
 
-## Setup notes for this machine
+## Setup notes
 
-- `node` = v22.16.0 (verified). `bun` not installed — install from https://bun.sh before running any command above.
-- Use the **Bash** or **PowerShell** tool; the repo lives at `mastermorphic/morphic/`.
-- Git note: this snapshot has **no commits yet** (`git log` fails), so there's no history to mine.
+- [package.json](../../package.json) pins `"engines": { "bun": "1.2.12" }`; install Bun from https://bun.sh before running any command above.
+- Run commands from the app directory (`morphic/`, the folder containing `package.json`), not the repository root.
+- Git note (updated 2026-10-06): the repository now has history, but it is a single snapshot commit of the whole tree — there is still no upstream Morphic history to mine for "why did this change" questions.

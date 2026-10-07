@@ -24,7 +24,7 @@ It is a near-ideal training repo: it has a real security boundary (RLS + auth + 
 | Quality | [05-quality-engineering/](05-quality-engineering/README.md) | Testing, debugging, performance, security, observability |
 | Contribution | [06-contribution-practice/](06-contribution-practice/README.md) | Junior tickets → mid features → senior projects → katas |
 | Career | [07-career-and-collaboration/](07-career-and-collaboration/README.md) | Review mindset, PRs/RFCs, maintainer communication |
-| **Interview prep** | [08-interview-prep/](08-interview-prep/README.md) | 50+ question cards (mostly repo-anchored), system design walkthrough, STAR stories, 2-week cram plan |
+| **Interview prep** | [08-interview-prep/](08-interview-prep/README.md) | 41 question cards (Q1–Q41, mostly repo-anchored), 5 timed debugging/review rounds, an 8-step system design walkthrough, 10 STAR stories, 2-week cram plan |
 | Reference | [09-reference/](09-reference/verification-log.md) | Commands, risk register, rubrics, verification log |
 
 ## How to use it
